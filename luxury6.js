@@ -40,7 +40,88 @@ function toGerman() {
       Doria waren kollidiert, wobei der der verstärkte Bug der Stockholm, der
       für Eiswasser konstruiert war, die Steuerbordseite der Andrea Doria
       aufgeschnitten hatte. Das Wasser war sofort eingedrungen und hatte der
-      Andrea Doria eine starke Schlagseite versetzt. Der Bug der Stockholm war
+      Andrea Doria eine starke Schlagseite versetzt.
+      <div class="links">
+            <div class="rescue rescue1">
+              <img
+                width="180px"
+                height="100px"
+                src="https://cdn.pixabay.com/photo/2012/04/02/16/48/lifesaver-24924_640.png"
+              /><br />
+              <a
+                href="https://www.youtube.com/watch?v=_Z88f15tMq8"
+                target="_blank"
+                >klicke für: <br />Greatest Atlantic Rescue (1956)</a
+              >
+            </div>
+            <br /><br />
+            <div class="rescue rescue2">
+              <img
+                width="150px"
+                height="100px"
+                style="transform: rotate(5deg)"
+                src="https://cdn.pixabay.com/photo/2012/04/02/16/48/lifesaver-24924_640.png"
+              /><br />
+              <a
+                href="https://www.youtube.com/watch?v=gqO5kLh79zY"
+                target="_blank"
+                >klicke für: <br />The Story of Andrea Doria's Miracle Girl</a
+              >
+            </div>
+
+            <br /><br />
+            <div class="rescue rescue3">
+              <img
+                width="180px"
+                height="100px"
+                src="https://cdn.pixabay.com/photo/2012/04/02/16/48/lifesaver-24924_640.png"
+              /><br />
+              <a
+                href="https://www.youtube.com/watch?v=V82663joBww"
+                target="_blank"
+                >klicke für: <br />Sinking of the Andrea Doria</a
+              >
+            </div>
+            <br /><br />
+            <div class="rescue rescue4">
+              <img
+                width="180px"
+                height="100px"
+                src="https://cdn.pixabay.com/photo/2012/04/02/16/48/lifesaver-24924_640.png"
+              /><br />
+              <a
+                href="https://www.youtube.com/watch?v=3Wjgj7M_7kA"
+                target="_blank"
+                >klicke für: <br />Sinking - Kurzfilm-Animation</a
+              >
+            </div>
+
+            <div class="rescue rescue5" style="margin-left: 60px">
+              <img
+                width="180px"
+                height="100px"
+                src="https://cdn.pixabay.com/photo/2012/04/02/16/48/lifesaver-24924_640.png"
+              /><br />
+              <a
+                href="https://www.youtube.com/watch?v=-u2H62yiqs8"
+                target="_blank"
+                >klicke für: <br />Sinking - long film
+              </a>
+            </div>
+
+            <div class="rescue rescue6" style="margin-left: 50px">
+              <img
+                width="250px"
+                height="150px"
+                src="https://cdn.pixabay.com/photo/2013/07/13/12/19/dinghy-159624_1280.png"
+              /><br />
+              <a style="padding-left: 100px" id="continue" href="luxury7.html"
+                >click to <br />klicke hier, um fortzufahren</a
+              >
+            </div>
+      
+      </div>
+      Der Bug der Stockholm war
       zerstört, doch dieser Liner vermochte es noch, sich einige Stungen über
       Wasser zu halten, während die Andrea Doria langsam sank. Aufgrund der
       starken Schlagseite waren die Hälfte der Rettungsboote nicht einsatzfähig.

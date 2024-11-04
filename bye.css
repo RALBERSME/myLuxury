@@ -27,7 +27,7 @@ body {
   width: 200px;
   height: 450px;
   transform: rotate(-5deg);
-  animation: stepping 9s ease-in-out forwards;
+  animation: stepping 12s ease-in-out forwards;
   z-index: 5;
 }
 
