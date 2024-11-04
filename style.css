@@ -8,6 +8,7 @@
   box-sizing: border-box;
 }
 body {
+  height: 100vh;
   background: #000;
   font-family: "Josefin Sans", sans-serif;
   display: flex;
@@ -93,7 +94,7 @@ body {
 
 #luxury {
   padding-top: 5%;
-  height: 70%;
+  height: 80%;
   width: 90%;
 }
 
