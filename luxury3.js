@@ -2,15 +2,15 @@ function toGerman() {
   const englText = document.querySelector(".englishText");
   englText.innerHTML = `
  <p class="text">
-        Bis zum Ausbruch des 2. Weltkriegs hatte die Ile of France mehr als 346
+        Bis zum Ausbruch des 2. Weltkriegs hatte die «SS Île de France» mehr als 346
         Transatlantik-Überquerungen absolviert und dabei mehr als 245 000
         Menschen transportiert. Sie war somit eines der erfolgreichsten Schiffe
         der 1930iger Jahre.
         <br />
         <br />
         Am 3. September 1939 lief sie ein letztes Mal in Richtung New York aus,
-        dieses Mal vollgefrachtet mit 1777 Passagieren, also weit mehr als die
-        1644 regulären Passagiertkapazitäten, die das Schiff aufwies. Die
+        dieses Mal vollgefrachtet mit 1.777 Passagieren, also weit mehr als die
+        1.644 regulären Passagiertkapazitäten, die das Schiff aufwies. Die
         Passagiere bestanden überwiegend aus Amerikanern, die vor einem Krieg
         fliehen wollten. Nur zwei Tage vorher war Deutschland illegal in Polen
         eingewandert. Drei Stunden, nachdem die Ile de France den französischen
@@ -43,7 +43,7 @@ function toGerman() {
         und die Überfahrten wurden daher für die australischen Soldaten zur
         Qual.
         <br />
-        1944 wurde die Ile de France an die Cunard White Star Line Reederei
+        1944 wurde die «SS Île de France» an die Cunard White Star Line Reederei
         übergeben, die den Transport amerikanischer und kanadischer Truppen nach
         Europa vorbereitete.
         <br />
@@ -57,4 +57,10 @@ function toGerman() {
       </p>
 
 `;
+}
+
+/*audio */
+function playAudio() {
+  let audio = new Audio("war.mp3");
+  audio.play();
 }

@@ -88,9 +88,11 @@ a:hover {
   text-decoration: none;
   color: dodgerblue;
 }
-#translation {
+#translation,
+#addSound {
   color: dodgerblue;
 }
-#translation:hover {
+#translation:hover,
+#addSound:hover {
   color: orangered;
 }

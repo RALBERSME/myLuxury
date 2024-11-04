@@ -33,16 +33,15 @@ setTimeout(() => {
 
 function germanVersion() {
   cta.classList.add("hide");
-  englishText.textContent = `Erst nach der Kapitutation Deutschlands ging die Ile of France zurück in
+  englishText.textContent = `Erst nach der Kapitutation Deutschlands ging die «SS Île de France» zurück in
         französische Hände. Es folgten langjährige Repraraturarbeiten. Nach dem
-        2. Weltkrieg besaß Frankreich keine glänzenden Ocean Liner mehr. Die S.
-        S. Paris brannte am 19. April 1939 aus und sank, die S.S. Normandy wurde
+        2. Weltkrieg besaß Frankreich keine glänzenden Ocean Liner mehr. Die «SS Paris» brannte am 19. April 1939 aus und sank, die «SS Normandy» wurde
         1942 ein Opfer der Flammen. Als Kriegsentschädigung erhielt Frankreich
-        den deutschen Luxusliner "Europa", welches das Schwesterschiff der
-        legendären "Bremen" war.
+        den deutschen Luxusliner «SS Europa», welches das Schwesterschiff der
+        legendären «SS Bremen» war.
         <br />
         <br />
-        Daher setzten die Franzosen so viel daran, die S.S. Ile de France wieder
+        Daher setzten die Franzosen so viel daran, die «SS Île de France» wieder
         in einen stattlichen Liniendampfer umzubauen. Die drei Schornsteine
         wurden entfernt und an ihre Stelle zwei größere, modernere Schornsteinge
         gesetzt. Das Schiff wurde neu gestrichen und erhielt eine moderne
