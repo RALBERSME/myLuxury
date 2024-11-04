@@ -23,17 +23,14 @@ body {
   grid-template-columns: 1fr 2fr 1fr;
 }
 
-/*left side */
-/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-box {
   background-color: transparent;
   width: 350px;
   height: 200px;
   border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px;
 }
 
-/* This container is needed to position the front and back side */
 .flip-box-inner {
   position: relative;
   width: 100%;
@@ -43,30 +40,26 @@ body {
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-box:hover .flip-box-inner {
   transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
 .flip-box-front,
 .flip-box-back {
   position: absolute;
   width: 100%;
   height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
 .flip-box-front {
   background-color: #fcd462;
   color: black;
 }
 
-/* Style the back side */
 .flip-box-back {
-  background-image: url(https://cdn.pixabay.com/photo/2016/03/03/01/12/guilloche-1233391_640.png);
+  background-image: url(https://cdn.pixabay.com/photo/2022/06/25/13/33/landscape-7283516_640.jpg);
   background-position: center/cover;
   background-size: contain;
   color: orangered;
@@ -113,7 +106,7 @@ body {
 
 a {
   text-decoration: none;
-  color: orangered;
+  color: black;
   font-size: 1.25rem;
   font-weight: bold;
 }
