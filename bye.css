@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+  background-image: url(https://cdn.pixabay.com/photo/2022/09/02/14/41/art-deco-7427747_640.png);
+  background-position: center/cover;
+
+  overflow: hidden;
+}
+.container {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#couple {
+  position: absolute;
+  top: 24%;
+  left: 28%;
+  width: 200px;
+  height: 450px;
+  transform: rotate(-5deg);
+  animation: stepping 9s ease-in-out forwards;
+  z-index: 5;
+}
+
+@keyframes stepping {
+  0% {
+    top: 24%;
+    left: 28%;
+  }
+  100% {
+    top: -15%;
+    left: -11%;
+  }
+}
+
+#stairs {
+  z-index: 10;
+}
+
+#rahmen {
+  position: absolute;
+  top: 3%;
+  left: 31%;
+  z-index: 2;
+}
+#ship {
+  position: absolute;
+  top: 3%;
+  left: 32.5%;
+  z-index: 1;
+}
+.bye {
+  position: absolute;
+  top: 32%;
+  left: 38%;
+  width: 450px;
+  padding: 20px;
+  font-size: 1.25rem;
+  text-align: center;
+}
+.goldenred {
+  color: #f6d726;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.7);
+  font-size: 1.3rem;
+}

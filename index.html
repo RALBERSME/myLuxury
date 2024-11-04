@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>myLuxury Travel</title>
+  </head>
+  <body onclick="window.location='luxury.html'">
+    <div class="container">
+      <div class="intro">
+        <h1 class="invitation">
+          Travel with us <br />at highest <br />luxury standards.
+        </h1>
+        <button
+          class="btn btn-primary btn-lg hidden"
+          onclick="window.location='luxury.html'"
+        >
+          <div
+            class="start-btn"
+            onmouseenter="changeText()"
+            onmouseleave="resetText()"
+            id="startText"
+            onclick="window.location='luxury.html'"
+          >
+            <span onclick="window.location='luxury.html'">Start </span
+            ><br /><br /><span
+              id="yellow"
+              onclick="window.location='luxury.html'"
+              >luxury travel</span
+            >
+          </div>
+          <div
+            class="btn-highlight"
+            onclick="window.location='luxury.html'"
+          ></div>
+        </button>
+      </div>
+
+      <img
+        id="luxury"
+        src="https://cdn.pixabay.com/photo/2024/05/12/19/07/ai-generated-8757510_640.png"
+        alt="luxury"
+      />
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

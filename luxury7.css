@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+  background-image: url(https://cdn.pixabay.com/photo/2024/06/23/20/54/ai-generated-8848753_640.jpg);
+  background-position: 100% 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  margin: 5%;
+  padding: 0% 5%;
+  height: 95vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1.4rem;
+}
+
+a {
+  text-decoration: none;
+  color: wheat;
+}
+
+a:hover {
+  color: dodgerblue;
+}

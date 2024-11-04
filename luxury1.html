@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="luxury1.css" />
+    <title>Salon</title>
+  </head>
+  <body>
+    <div class="container">
+      <br />
+      <marquee behavior="alternate" style="border: transparent; font-size: 2rem"
+        >Veuillez vous asseoir -- Please take a seat -- Bitte nehmen Sie
+        Platz</marquee
+      >
+      <img src="Images/salonIledeFrance.png" id="salon" /><br />
+      <div class="dataBox">
+        <p>
+          source of pic:
+          https://en.wikipedia.org/wiki/SS_%C3%8Ele_de_France#/media/File:SS_Ile_de_France_Grand_Salon.JPG
+        </p>
+        <br />
+        <h3 onclick="oldImage()">
+          We renovated the salon for you in 1950. If you want to see the
+          original version from 1926, click here
+        </h3>
+      </div>
+      <div class="more">
+        <button onclick="openModal()" class="closeBtn">Tell me more</button>
+        <br />
+        <button class="closeBtn" onclick="window.location.href='luxury2.html'">
+          continue
+        </button>
+      </div>
+    </div>
+    <div class="modal hide">
+      <h4 class="info">
+        Our wonderful ship is called the
+        <strong>"S.S. Île de France"</strong> and was launched in 1926. The
+        French shipping company Compagnie Générale Transatlantique signed a
+        contract with the French government in 1916 to build four passenger
+        ships. The first of these ships was the <em>Paris</em>, which was put
+        into service in 1921. The Ile de France was launched on March 14, 1926,
+        and began its first sea trials on May 29, 1926. At that time, the large
+        ocean liners were competing for the Blue Riband, the award for the ship
+        that could cross the Atlantic the fastest. The Ile de France, with a
+        length of 214.35 meters and a width of 28 meters, was never the fastest
+        ship with a top speed of 23.5 knots per hour (that's about 44 kilometers
+        per hour)...but it was one of the ships with a charming interior.
+        Everything was in the Art Deco style. <br /><br />
+        <a href="https://de.wikipedia.org/wiki/Art_d%C3%A9co" target="_blank"
+          >>>read more on art deco style</a
+        ><br />
+        <a href="https://www.youtube.com/watch?v=OK2L5UiDWCs" target="_blank"
+          >>>watch movie on art deco style</a
+        ><br /><br />
+        The Ile de France was the world's largest new passenger ship built after
+        the First World War.
+        <br />
+        The salon furnishings from 1926 show the lavishly gold-decorated first
+        class salon. But the other rooms also stood out from previous ocean
+        liners. All cabins now had beds instead of bunks. A magnificent
+        staircase led to the exquisite dining room. There was even a carousel
+        for children on board.
+        <br />
+        The Ile de France made its maiden voyage on June 22, 1927. It was
+        received with great applause in New York. Due to its splendor, wealthy
+        Americans and Europeans preferred this ship for their transatlantic
+        crossings, bringing in a lot of money for the French shipping company.
+        The luxury was increased even further when a seaplane catapult was
+        installed on the ship in 1928, from which flying boats could launch that
+        flew ahead of the ship with the mail when the Ile de France was about
+        200 nautical miles from land. This meant that the mail could be
+        distributed on the mainland one day before the ship arrived. This meant
+        that at least its postal service was the fastest between Europe and the
+        USA (until 1930, when this achievement was discontinued for cost
+        reasons).
+        <br /><br />
+        On September 1, 1939, the Second World War began, as a result of which
+        civil transatlantic traffic was suspended by France.
+        <br /><br />
+        <p id="toGerman" onclick="toGerman()">
+          translate to German / deutsche Übersetzung
+        </p>
+        <br />
+        <p onclick="closeModal()" id="closeModal">close info box</p>
+        <br />
+      </h4>
+    </div>
+    <script src="luxury1.js"></script>
+  </body>
+</html>

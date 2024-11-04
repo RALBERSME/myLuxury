@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: aliceblue;
+  font-family: "Josefin Sans", sans-serif;
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/31/17/31/france-1293707_640.png");
+  background-size: 5%;
+  background-repeat: round;
+}
+.container {
+  margin: 1.5%;
+  position: relative;
+  background-color: aliceblue;
+  padding: 5% 3% 7.5%;
+}
+#leHavre {
+  border-radius: 5px;
+}
+#captain {
+  position: absolute;
+  top: 2%;
+  left: 45%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid rgb(108, 183, 248);
+  border-bottom: 8px solid rgb(108, 183, 248);
+  border-left: 8px solid rgb(108, 183, 248);
+}
+
+.intro {
+  position: absolute;
+  top: 5%;
+  left: 65%;
+  width: 30%;
+  font-size: 1.5rem;
+}
+
+.hideEnglish,
+.hideDeutsch {
+  display: none;
+}
+.translation:hover {
+  color: dodgerblue;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(108, 183, 248);
+}
+a:hover {
+  color: dodgerblue;
+  font-size: 1.8rem;
+}

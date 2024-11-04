@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  text-align: center;
+  background-image: url(https://cdn.pixabay.com/photo/2022/11/04/23/56/deco-7570878_640.png);
+}
+
+.container {
+  margin: 2.5%;
+}
+h1 {
+  font-size: 2.5rem;
+  color: #4c7a78;
+}
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 80vh;
+  background-color: #4c7a78;
+}
+.frau {
+  background-image: url(Images/frau.jpg);
+}
+.filme {
+  color: rgb(250, 206, 96);
+  text-align: left;
+  margin-left: 25px;
+}
+a {
+  text-decoration: none;
+  background-color: #c19954;
+  color: #080c17;
+  margin-bottom: 25px;
+  font-size: 1.5rem;
+  padding: 5px;
+  border-radius: 5px;
+}
+a:hover {
+  color: #f8c99d;
+  display: block;
+}
+#couple {
+  position: absolute;
+  top: 50%;
+  left: 85%;
+  width: 300px;
+  height: 500px;
+}

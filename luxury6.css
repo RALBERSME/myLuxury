@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+  background-image: url(https://cdn.pixabay.com/photo/2018/03/08/16/28/waters-3209042_960_720.jpg);
+  background-position: center/cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  margin: 1.5%;
+  padding: 7.5px;
+  height: 95vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: rgb(251, 236, 208);
+  font-size: 0.95rem;
+}
+
+.links {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+.rescue {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.rescue1 {
+  animation: waving 4s 0s ease infinite;
+}
+.rescue2 {
+  animation: waving 9s 1s linear infinite;
+}
+.rescue3 {
+  animation: waving 6s 2s ease-in-out infinite;
+}
+.rescue4 {
+  animation: waving 5s 0.5s ease-out infinite;
+}
+.rescue5 {
+  animation: waving 8s 3s linear infinite;
+}
+.rescue6 {
+  animation: waving 7s 1s ease-in-out infinite;
+}
+@keyframes waving {
+  0% {
+    transform: translateX(0px) translateY(0px) translateY(0px);
+  }
+  10% {
+    transform: translateX(5px) translateY(0px) translateY(0px);
+  }
+  30% {
+    transform: translateX(10px) translateY(10px) translateY(0px);
+  }
+  50% {
+    transform: translateX(20px) translateY(10px) translateY(10px);
+  }
+  70% {
+    transform: translateX(10px) translateY(0px) translateY(0px);
+  }
+  90% {
+    transform: translateX(10px) translateY(10px) translateY(10px);
+  }
+  100% {
+    transform: translateX(0px) translateY(0px) translateY(0px);
+  }
+}
+a {
+  text-decoration: overline underline;
+  color: rgb(245, 209, 141);
+  margin-bottom: 60px;
+}
+a:hover {
+  text-decoration: none;
+  color: dodgerblue;
+}

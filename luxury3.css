@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+  background-image: url(https://cdn.pixabay.com/photo/2020/03/29/02/13/leather-4979033_640.jpg);
+  background-position: center/cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  margin: 1.5%;
+  padding: 10px;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+h1 {
+  text-align: center;
+}
+.split {
+  display: flex;
+  flex-direction: column;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.text {
+  font-size: 1.3rem;
+  padding: 10px;
+}
+.source {
+  padding-left: 10px;
+}
+.btn {
+  color: dodgerblue;
+  cursor: pointer;
+  padding-left: 10px;
+}
+.btn:hover {
+  color: orangered;
+}

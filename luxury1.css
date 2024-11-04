@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: rgb(254, 237, 194);
+}
+.container {
+  margin: 1.5%;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+marquee {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 15px;
+}
+#salon {
+  height: 85%;
+  margin: 0 auto;
+  width: 80%;
+}
+.dataBox {
+  margin-top: 5px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+h3 {
+  color: dodgerblue;
+  font-weight: 400;
+  cursor: pointer;
+}
+h3:hover {
+  color: goldenrod;
+}
+
+.modal {
+  position: absolute;
+  top: 2.5%;
+  left: 7.5%;
+  width: 85%;
+  height: 90%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: wheat;
+}
+.modal .info {
+  padding: 5%;
+  font-size: 1.5rem;
+}
+a {
+  text-decoration: none;
+  color: rgb(252, 190, 74);
+}
+a:hover {
+  color: dodgerblue;
+}
+.hide {
+  display: none;
+}
+#toGerman,
+#closeModal {
+  color: rgb(252, 190, 74);
+  cursor: pointer;
+}
+#toGerman:hover,
+#closeModal:hover {
+  color: dodgerblue;
+}
+.more {
+  position: absolute;
+  top: 5%;
+  left: 0%;
+}
+.closeBtn {
+  display: block;
+  color: rgb(80, 85, 90);
+  text-shadow: 1px 1px 1px white;
+  padding: 15px 25px;
+  background-color: rgb(251, 214, 121);
+  background-image: radial-gradient(
+      93% 87% at 87% 89%,
+      rgba(0, 0, 0, 0.23) 0%,
+      transparent 86.18%
+    ),
+    radial-gradient(
+      66% 66% at 26% 20%,
+      rgba(250, 233, 233, 0.55) 0%,
+      rgba(255, 255, 255, 0) 69.79%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25),
+    inset 0px 3px 9px rgba(255, 255, 255, 0.3),
+    inset 0px 1px 1px rgba(255, 255, 255, 0.6),
+    inset 0px -8px 36px rgba(0, 0, 0, 0.3),
+    inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}

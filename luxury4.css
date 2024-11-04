@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+}
+.container {
+  margin: 1.5%;
+  padding: 7.5px;
+  height: 95vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.split {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.information {
+  padding: 5% 10%;
+  font-size: 1.5rem;
+  height: 80vh;
+}
+.painting {
+  padding: 5% 10%;
+}
+#oldShip {
+  width: 500px;
+  height: 600px;
+}
+#pinsel {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  transform-origin: center;
+  transform: rotate(-45deg);
+  animation: colorizeShip 3s 2s ease-in-out infinite;
+}
+@keyframes colorizeShip {
+  0% {
+    transform: rotate(45deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }
+}
+
+#blueSpot {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  animation: spotGrow 3s 2s linear forwards;
+}
+
+@keyframes spotGrow {
+  0% {
+    top: 25%;
+    left: 5%;
+    width: 1px;
+    height: 1px;
+  }
+  100% {
+    top: -25%;
+    left: -40%;
+    width: 2200px;
+    height: 1400px;
+  }
+}
+@keyframes spotShrink {
+  0% {
+    top: -25%;
+    left: -40%;
+    width: 2200px;
+    height: 1400px;
+  }
+  100% {
+    top: 25%;
+    left: 5%;
+    width: 1px;
+    height: 1px;
+  }
+}
+
+@keyframes changeShip {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes fadeOutElements {
+  0% {
+    opacity: 1;
+    transform: rotate(45deg);
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotate(45deg);
+  }
+}
+.hide {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: goldenrod;
+}
+a:hover {
+  color: dodgerblue;
+}
