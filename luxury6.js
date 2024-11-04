@@ -46,7 +46,7 @@ function toGerman() {
               <img
                 width="180px"
                 height="100px"
-                src="https://cdn.pixabay.com/photo/2012/04/02/16/48/lifesaver-24924_640.png"
+                 src="Images/lifesaver.png"
               /><br />
               <a
                 href="https://www.youtube.com/watch?v=_Z88f15tMq8"
@@ -60,7 +60,7 @@ function toGerman() {
                 width="150px"
                 height="100px"
                 style="transform: rotate(5deg)"
-                src="https://cdn.pixabay.com/photo/2012/04/02/16/48/lifesaver-24924_640.png"
+                src="Images/lifesaver.png"
               /><br />
               <a
                 href="https://www.youtube.com/watch?v=gqO5kLh79zY"
@@ -74,7 +74,7 @@ function toGerman() {
               <img
                 width="180px"
                 height="100px"
-                src="https://cdn.pixabay.com/photo/2012/04/02/16/48/lifesaver-24924_640.png"
+                 src="Images/lifesaver.png"
               /><br />
               <a
                 href="https://www.youtube.com/watch?v=V82663joBww"
@@ -87,7 +87,7 @@ function toGerman() {
               <img
                 width="180px"
                 height="100px"
-                src="https://cdn.pixabay.com/photo/2012/04/02/16/48/lifesaver-24924_640.png"
+                src="Images/lifesaver.png"
               /><br />
               <a
                 href="https://www.youtube.com/watch?v=3Wjgj7M_7kA"
@@ -100,7 +100,7 @@ function toGerman() {
               <img
                 width="180px"
                 height="100px"
-                src="https://cdn.pixabay.com/photo/2012/04/02/16/48/lifesaver-24924_640.png"
+                 src="Images/lifesaver.png"
               /><br />
               <a
                 href="https://www.youtube.com/watch?v=-u2H62yiqs8"
@@ -113,7 +113,7 @@ function toGerman() {
               <img
                 width="250px"
                 height="150px"
-                src="https://cdn.pixabay.com/photo/2013/07/13/12/19/dinghy-159624_1280.png"
+                 src="Images/lifeboot.png"
               /><br />
               <a style="padding-left: 100px" id="continue" href="luxury7.html"
                 >click to <br />klicke hier, um fortzufahren</a

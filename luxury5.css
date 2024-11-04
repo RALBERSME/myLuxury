@@ -59,7 +59,7 @@ body {
 }
 
 .flip-box-back {
-  background-image: url(https://cdn.pixabay.com/photo/2022/06/25/13/33/landscape-7283516_640.jpg);
+  background-image: url(Images/landscape.jpg);
   background-position: center/cover;
   background-size: contain;
   color: orangered;

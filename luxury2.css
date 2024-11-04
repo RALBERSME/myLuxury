@@ -6,7 +6,7 @@
 body {
   height: 100vh;
   text-align: center;
-  background-image: url(https://cdn.pixabay.com/photo/2022/11/04/23/56/deco-7570878_640.png);
+  background-image: url(Images/deco.png);
 }
 
 .container {
