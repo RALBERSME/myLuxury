@@ -39,8 +39,7 @@ function germanVersion() {
         1942 ein Opfer der Flammen. Als Kriegsentschädigung erhielt Frankreich
         den deutschen Luxusliner «SS Europa», welches das Schwesterschiff der
         legendären «SS Bremen» war.
-        <br />
-        <br />
+        
         Daher setzten die Franzosen so viel daran, die «SS Île de France» wieder
         in einen stattlichen Liniendampfer umzubauen. Die drei Schornsteine
         wurden entfernt und an ihre Stelle zwei größere, modernere Schornsteinge
