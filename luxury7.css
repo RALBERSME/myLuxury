@@ -12,6 +12,7 @@ body {
   background-position: 100% 10%;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 .container {
   margin: 5%;
