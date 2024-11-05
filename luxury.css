@@ -23,17 +23,6 @@ body {
 #leHavre {
   border-radius: 5px;
 }
-#captain {
-  position: absolute;
-  top: 2%;
-  left: 45%;
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  border: 2px solid rgb(108, 183, 248);
-  border-bottom: 8px solid rgb(108, 183, 248);
-  border-left: 8px solid rgb(108, 183, 248);
-}
 
 .intro {
   position: absolute;
@@ -58,4 +47,61 @@ a {
 a:hover {
   color: dodgerblue;
   font-size: 1.8rem;
+}
+
+/*magic glass*/
+
+#captain {
+  width: 300px;
+  height: 300px;
+  border: 2px solid rgb(108, 183, 248);
+  border-bottom: 8px solid rgb(108, 183, 248);
+  border-right: 8px solid rgb(108, 183, 248);
+}
+.img-zoom-container {
+  position: absolute;
+  top: 2%;
+  left: 45%;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 2px dotted dodgerblue;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.img-zoom-result {
+  position: absolute;
+  top: 145%;
+  left: -5%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid rgb(108, 183, 248);
+  border-bottom: 8px solid rgb(108, 183, 248);
+  border-right: 8px solid rgb(108, 183, 248);
+}
+
+#zoomInfo {
+  position: absolute;
+  color: black;
+  top: 5%;
+  left: 20%;
+  animation: colorAnimation 7s linear infinite;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+@keyframes colorAnimation {
+  0% {
+    color: dodgerblue;
+  }
+  50% {
+    color: orangered;
+  }
+  100% {
+    color: dodgerblue;
+  }
 }

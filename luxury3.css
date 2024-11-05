@@ -26,14 +26,15 @@ h1 {
   text-align: center;
 }
 .split {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .images {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 10px;
+}
+img {
+  display: inline-block;
 }
 .text {
   font-size: 1.3rem;
@@ -49,4 +50,73 @@ h1 {
 }
 .btn:hover {
   color: orangered;
+}
+
+/*comparison*/
+.img-comp-container {
+  position: relative;
+  height: 180px;
+  margin-left: 0%;
+}
+
+.img-comp-img {
+  position: absolute;
+  width: "575px";
+  height: "180px";
+  overflow: hidden;
+}
+
+.img-comp-img img {
+  display: block;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index: 9;
+  cursor: ew-resize;
+
+  opacity: 0.7;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid dodgerblue;
+}
+
+#instruction {
+  position: absolute;
+  top: 34%;
+  left: 70%;
+  font-size: 1.1rem;
+  color: dodgerblue;
+  animation: blinc 5s linear infinite;
+}
+
+@keyframes blinc {
+  0% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hover:hover {
+  transform: scale(1.5);
+  width: "600px";
+  height: "400px";
+  z-index: 3;
 }

@@ -8,34 +8,38 @@
   </head>
   <body>
     <div class="container">
+      <br />
       <h1>The «SS Île de France» in the harsh reality of World War II</h1>
       <br />
       <div class="split">
+        <img src="Images/war1.png" class="hover" width="575px" height="180px" />
+        <img src="Images/war2.png" class="hover" width="575px" height="180px" />
         <div class="images">
-          <img
-            width="575px"
-            height="180px"
-            src="Images/war1.png"
-            alt="war1ship"
-          />
-          <img
-            width="575px"
-            height="180px"
-            src="Images/war2.png"
-            alt="war2ship"
-          />
-          <img
-            width="575px"
-            height="180px"
-            src="Images/war3.png"
-            alt="war3ship"
-          />
+          <span class="img-comp-container">
+            <span class="img-comp-img">
+              <img
+                src="Images/war3.png"
+                class="hover"
+                width="575px"
+                height="180px"
+              />
+            </span>
+            <span class="img-comp-img img-comp-overlay">
+              <img
+                class="hover"
+                src="Images/ancientIleDeFrance.png"
+                width="575px"
+                height="180px"
+              />
+            </span>
+          </span>
         </div>
       </div>
       <br />
       <div class="btns">
         <p class="source">
-          source of images: http://ssmaritime.com/Ile-de-France-2.htm
+          source of images: http://ssmaritime.com/Ile-de-France-2.htm <br />
+          https://de.wikipedia.org/wiki/%C3%8Ele_de_France_(Schiff)#/media/Datei:Le_Havre-FR-76-paquebot_%C3%8Ele_de_France-09.jpg
         </p>
         <br />
         <h2 class="btn" onclick="toGerman()">
@@ -102,7 +106,17 @@
         <br />
       </div>
     </div>
-
+    <div id="instruction">
+      <p>
+        move the blue triangle <strong>sidewards</strong> to compare <br />the
+        condition of the ship before the war with after the war
+      </p>
+      <br />
+      <p>
+        bewege das blaue Dreick <strong>seitlich</strong>, um den Zustand
+        <br />des Schiffes vor und nach dem Krieg zu vergleichen
+      </p>
+    </div>
     <div class="germanTranslation"></div>
     <script src="luxury3.js"></script>
   </body>
