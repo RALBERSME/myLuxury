@@ -105,7 +105,7 @@ function toGerman() {
                  src="Images/lifeboot.png"
               /><br />
               <a style="padding-left: 100px" id="continue" href="luxury7.html"
-                >click to <br />klicke hier, um fortzufahren</a
+                >klicke hier, um fortzufahren</a
               >
             </div>
       
